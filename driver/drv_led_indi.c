@@ -1,5 +1,5 @@
 /**
- * @file drv_nrf905.c
+ * @file drv_led_indi.c
  * @author your name (you@domain.com)
  * @brief
  * @version 0.1
@@ -8,4 +8,3 @@
  * @copyright Copyright (c) 2022
  *
  */
-

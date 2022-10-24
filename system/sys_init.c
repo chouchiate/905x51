@@ -9,3 +9,27 @@
  *
  */
 
+#include "includes.h"
+
+void initSys(void)
+{
+    initGpio();
+    initSpi();
+
+}
+
+void initGpio(void)
+{
+    /**
+     *
+     * @brief pin define
+     *
+     */
+}
+
+void initSpi(void)
+{
+
+}
+
+
