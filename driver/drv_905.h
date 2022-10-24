@@ -33,6 +33,17 @@ sbit    KEY1    =P3^0;
 sbit    KEY2    =P3^1;
 
 typedef enum {
+	_CONF_CENTER_FREQ = 0,
+	_CONF_FREQ_BAND = 1,
+	_CONF_POWER_MODE = 2,
+	_CONF_RETRAN_MODE = 3,
+	_CONF_RX_ADDR_WIDTH = 4,
+	_CONF_TX_ADDR_WIDTH = 5,
+	_CONF_RX_PAYLOAD_WIDTH =6,
+	_CONF_TX_PAYLOAD_WIDTH = 7,
+	_CONF_RX_ADDR_ID = 8,
+	_CONF_OP_CLK_FREQ = 9,
+	_CONF_OP_CLK_EN = 10,
 
 } _905Configs;
 
